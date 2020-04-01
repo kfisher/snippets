@@ -1,0 +1,28 @@
+
+body {
+    background-color: red;
+}
+
+.z-menu {
+    background-color: dodgerblue;
+    box-sizing: border-box;
+    color: black;
+    display: none;
+    padding: 8px;
+    position: absolute;
+    left: 300px;
+    z-index: 10;
+}
+
+.z-menu.active {
+    display: block;
+}
+
+.z-menu-item {
+    padding: 4px 8;
+}
+
+.z-menu-item:hover {
+    background-color: firebrick;
+    cursor: pointer;
+}
